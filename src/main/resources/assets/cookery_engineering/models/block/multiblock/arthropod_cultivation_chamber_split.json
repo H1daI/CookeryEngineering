@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "immersiveengineering:basic_split",
+  "dynamic": false,
+  "inner_model": {
+    "parent": "minecraft:block/block",
+    "loader": "neoforge:obj",
+    "model": "cookery_engineering:models/block/multiblock/arthropod_cultivation_chamber.obj",
+    "flip_v": true,
+    "automatic_culling": false,
+    "textures": {
+      "particle": "immersiveengineering:block/metal/sheetmetal_steel"
+    }
+  },
+  "split_parts": [
+    [0, -1, -1], [1, -1, -1], [2, -1, -1],
+    [0, -1, 0],  [1, -1, 0],  [2, -1, 0],
+    [0, 0, -1],  [1, 0, -1],  [2, 0, -1],
+    [0, 0, 0],   [1, 0, 0],   [2, 0, 0],
+    [1, 1, -1],  [2, 1, -1],
+    [1, 1, 0],   [2, 1, 0]
+  ],
+  "textures": {
+    "particle": "immersiveengineering:block/metal/sheetmetal_steel"
+  }
+}

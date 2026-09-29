@@ -1,0 +1,24 @@
+newmtl multiblock_base
+Kd 1.000000 1.000000 1.000000
+d 1.000000
+map_Kd immersiveengineering:block/multiblocks/multiblock_base
+
+newmtl steel
+Kd 1.000000 1.000000 1.000000
+d 1.000000
+map_Kd immersiveengineering:block/metal/sheetmetal_steel
+
+newmtl culture_glass
+Kd 0.380000 0.620000 0.590000
+d 0.280000
+map_Kd immersiveengineering:block/window_glass
+
+newmtl culture_liquid
+Kd 1.000000 1.000000 1.000000
+d 1.000000
+map_Kd immersiveengineering:block/fluid/herbicide_still
+
+newmtl multiblock_components
+Kd 1.000000 1.000000 1.000000
+d 1.000000
+map_Kd immersiveengineering:block/multiblocks/multiblock_components

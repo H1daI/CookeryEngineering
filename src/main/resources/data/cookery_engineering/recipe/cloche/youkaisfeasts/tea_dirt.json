@@ -1,0 +1,30 @@
+{
+  "type": "immersiveengineering:cloche",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "youkaisfeasts"
+    }
+  ],
+  "input": {
+    "item": "youkaisfeasts:tea_seeds"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "results": [
+    {
+      "output": {
+        "id": "youkaisfeasts:tea_leaves",
+        "count": 2
+      },
+      "chance": 1
+    }
+  ],
+  "time": 800,
+  "render": {
+    "type": "immersiveengineering:doublecrop",
+    "block": "youkaisfeasts:tea",
+    "doublingAge": 4
+  }
+}

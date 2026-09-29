@@ -1,0 +1,29 @@
+{
+  "type": "immersiveengineering:cloche",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_end"
+    }
+  ],
+  "input": {
+    "item": "kaleidoscope_end:ender_mint"
+  },
+  "soil": {
+    "item": "minecraft:end_stone"
+  },
+  "results": [
+    {
+      "output": {
+        "id": "kaleidoscope_end:ender_mint",
+        "count": 2
+      },
+      "chance": 1
+    }
+  ],
+  "time": 800,
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "kaleidoscope_end:ender_mint"
+  }
+}

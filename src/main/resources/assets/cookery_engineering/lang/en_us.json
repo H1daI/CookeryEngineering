@@ -1,0 +1,17 @@
+{
+  "item.cookery_engineering.roach": "Blattidae",
+  "item.cookery_engineering.arthropod_biomass": "Arthropod Biomass",
+  "item.cookery_engineering.chitin": "Chitin",
+  "item.cookery_engineering.blatts_protein_bar": "Blatt’s™ Protein Bar",
+  "block.cookery_engineering.industrial_maturation_vessel": "Industrial Maturation Vessel",
+  "block.cookery_engineering.arthropod_cultivation_chamber": "Arthropod Cultivation Chamber",
+  "block.cookery_engineering.industrial_thresher": "Industrial Thresher",
+  "gui.cookery_engineering.industrial_maturation_vessel.manual_start": "Manual Start",
+  "gui.cookery_engineering.industrial_maturation_vessel.energy": "Stored: %s / %s IF",
+  "gui.cookery_engineering.industrial_maturation_vessel.if": "IF",
+  "gui.cookery_engineering.industrial_maturation_vessel.fluid": "Soup",
+  "gui.cookery_engineering.industrial_maturation_vessel.input": "Input",
+  "gui.cookery_engineering.industrial_maturation_vessel.output": "Output",
+  "gui.cookery_engineering.industrial_maturation_vessel.container": "Carrier",
+  "manual.cookery_engineering.cookery_engineering": "Cookery Engineering"
+}

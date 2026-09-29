@@ -1,0 +1,11 @@
+Industrial Maturation Vessel
+Processing ingredients into an edible state
+<&assembly>The Industrial Maturation Vessel is a jacketed batch cooking system. Stable, uniform indirect heating and continuous agitation gradually mature food ingredients under controlled conditions, producing more consistent texture and processing characteristics. Following multiple inspections by the Chief Engineer, the heavy-metal content of both the equipment and its products has remained reliably outside the lethal range. (Used to process Kaleidoscope Cookery Stockpot recipes.)<np>
+Use an Engineer's Hammer on the central iron-sheetmetal block of the middle layer to form the machine.
+
+The machine consumes 32 IF per tick while operating.
+
+The tank stores 8,000 mB. On receiving a redstone signal, the machine assigns 1 B of fluid as the soup base for the batch; the 1,000 mB is consumed only after a compatible recipe is confirmed. A recognized soup-base bucket may instead be inserted through an ingredient port, in which case the empty bucket is routed to product storage.
+
+After maturation, the product is retained until a suitable serving container becomes available.<np>
+Soup base enters through the blue port on the bottom layer. Ingredients may be inserted through any face of the vessel body. The orange port on the bottom layer is the product output, while the blue port on the same block accepts serving containers. A batch accepts no more than six ingredients and begins only after receiving a redstone pulse.

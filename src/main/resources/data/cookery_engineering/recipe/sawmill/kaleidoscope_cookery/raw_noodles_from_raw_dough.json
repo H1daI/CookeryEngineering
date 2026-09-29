@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 800,
+  "input": {
+    "tag": "c:dough"
+  },
+  "result": {
+    "count": 2,
+    "id": "kaleidoscope_cookery:raw_noodles"
+  },
+  "secondaryOutputs": [],
+  "strippingSecondaries": []
+}

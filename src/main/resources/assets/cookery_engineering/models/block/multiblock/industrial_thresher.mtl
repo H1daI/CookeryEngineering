@@ -1,0 +1,24 @@
+newmtl thresher_steel_plate
+Kd 1.000000 1.000000 1.000000
+d 1.000000
+map_Kd immersiveengineering:block/metal/sheetmetal_steel
+
+newmtl multiblock_base
+Kd 1.000000 1.000000 1.000000
+d 1.000000
+map_Kd immersiveengineering:block/multiblocks/multiblock_base
+
+newmtl thresher_safety_grid
+Kd 1.000000 1.000000 1.000000
+d 1.000000
+map_Kd cookery_engineering:block/industrial_thresher_safety_grid
+
+newmtl mixer
+Kd 1.000000 1.000000 1.000000
+d 1.000000
+map_Kd immersiveengineering:block/multiblocks/mixer
+
+newmtl multiblock_components
+Kd 1.000000 1.000000 1.000000
+d 1.000000
+map_Kd immersiveengineering:block/multiblocks/multiblock_components

@@ -1,0 +1,58 @@
+{
+  "loader": "neoforge:obj",
+  "model": "cookery_engineering:models/block/multiblock/industrial_thresher.obj",
+  "flip_v": true,
+  "display": {
+    "gui": {
+      "rotation": [
+        20,
+        -45,
+        0
+      ],
+      "translation": [
+        -4,
+        0,
+        0
+      ],
+      "scale": [
+        0.17,
+        0.17,
+        0.17
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        20,
+        -45,
+        0
+      ],
+      "translation": [
+        -4,
+        0,
+        0
+      ],
+      "scale": [
+        0.17,
+        0.17,
+        0.17
+      ]
+    },
+    "ground": {
+      "rotation": [
+        20,
+        -45,
+        0
+      ],
+      "translation": [
+        -4,
+        0,
+        0
+      ],
+      "scale": [
+        0.17,
+        0.17,
+        0.17
+      ]
+    }
+  }
+}

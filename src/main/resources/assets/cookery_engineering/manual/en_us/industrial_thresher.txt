@@ -1,0 +1,9 @@
+Large Thresher
+Removing hulls from raw materials
+<&assembly>The Large Thresher is a continuous mechanical system for high-throughput raw-material processing. Drums, screens and impact mechanisms break, strip and grade incoming material to separate components with differing physical properties. The latest model adds a high-strength safety barrier which, according to current statistics, has significantly reduced the probability of engineers falling into the machine and undergoing unintended epidermal separation. (Used to process Kaleidoscope Cookery Millstone recipes.)<np>
+Use an Engineer's Hammer on the light engineering block to form the machine. Materials may be dropped directly into the open hopper above it.
+
+The machine consumes 32 IF per tick while operating.
+
+Thanks to the newly installed screen, incorrect material is passed directly to the output instead of being reduced to dust as it would be in a Crusher. This has measurably reduced the frequency with which the Blaze logistics administrator is called to account.<np>
+The discharge first attempts to insert products into the adjacent inventory and drops any remainder into the world. A sustained signal at the redstone control port pauses both processing and loose-item intake, permitting an emergency shutdown without placing hands inside the mechanism.

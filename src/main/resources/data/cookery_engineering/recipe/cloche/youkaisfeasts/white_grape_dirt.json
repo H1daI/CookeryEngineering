@@ -1,0 +1,29 @@
+{
+  "type": "immersiveengineering:cloche",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "youkaisfeasts"
+    }
+  ],
+  "input": {
+    "item": "youkaisfeasts:white_grape_seeds"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "results": [
+    {
+      "output": {
+        "id": "youkaisfeasts:white_grape",
+        "count": 2
+      },
+      "chance": 1
+    }
+  ],
+  "time": 800,
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "youkaisfeasts:white_grape"
+  }
+}

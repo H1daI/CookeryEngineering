@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "neoforge:obj",
+  "model": "cookery_engineering:models/block/multiblock/industrial_thresher.obj",
+  "flip_v": true,
+  "automatic_culling": false,
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "immersiveengineering:block/metal/sheetmetal_steel"
+  }
+}

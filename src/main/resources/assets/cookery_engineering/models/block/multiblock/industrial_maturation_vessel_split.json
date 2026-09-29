@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "immersiveengineering:basic_split",
+  "dynamic": false,
+  "inner_model": {
+    "parent": "minecraft:block/block",
+    "loader": "neoforge:obj",
+    "model": "cookery_engineering:models/block/multiblock/industrial_maturation_vessel.obj",
+    "flip_v": true,
+    "automatic_culling": false,
+    "textures": {
+      "particle": "immersiveengineering:block/multiblocks/mixer"
+    }
+  },
+  "split_parts": [
+    [-1, -1, -1], [0, -1, -1], [1, -1, -1],
+    [-1, -1, 0],  [0, -1, 0],  [1, -1, 0],
+    [-1, -1, 1],  [0, -1, 1],  [1, -1, 1],
+    [0, 0, -1], [1, 0, -1],
+    [-1, 0, 0], [0, 0, 0], [1, 0, 0],
+    [-1, 0, 1], [1, 0, 1],
+    [0, 1, -1], [1, 1, -1],
+    [-1, 1, 0], [0, 1, 0], [1, 1, 0]
+  ],
+  "textures": {
+    "particle": "immersiveengineering:block/multiblocks/mixer"
+  }
+}

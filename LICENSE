@@ -1,0 +1,141 @@
+MIT License
+
+Copyright (c) 2026 Cookery Engineering contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+Scope, upstream material, and interoperability notices
+-------------------------------------------------------------------------------
+
+The MIT License above applies only to portions of Cookery Engineering for
+which the Cookery Engineering contributors hold the rights needed to grant
+that license. It does not replace or weaken the licenses, copyright, trademark
+rights, end-user terms, or other conditions that apply to third-party works.
+
+Required platforms and dependencies
+-----------------------------------
+
+Cookery Engineering calls, links against, or uses registry/API contracts from:
+
+* Minecraft: Java Edition and Mojang/Microsoft-owned classes, registries,
+  resource identifiers, and runtime assets. Minecraft is not distributed
+  under this license. The project references Minecraft assets at runtime,
+  including the bowl item texture used as a GUI guide.
+  Terms: https://www.minecraft.net/eula
+* NeoForge (`neoforge`), used as the mod loader and platform API. NeoForge is
+  licensed separately, principally under LGPL-2.1.
+  Source and license: https://github.com/neoforged/NeoForge
+* Immersive Engineering (`immersiveengineering`), a required dependency whose
+  multiblock API and implementation classes, energy and inventory utilities,
+  recipe serializers, GUI helpers, manual API, render helpers, sounds, models,
+  textures, and other runtime resources are called or referenced by this
+  add-on. Immersive Engineering is governed by Blu's License of Common Sense.
+  Source and license:
+  https://github.com/BluSunrize/ImmersiveEngineering/blob/1.21.1/LICENSE
+* Kaleidoscope Cookery (`kaleidoscope_cookery`), a required dependency whose
+  Stockpot, Rice Bowl, Millstone, Chopping Board, ingredient, item, block, and
+  recipe contracts are called or referenced by this add-on. Its code and
+  assets/data have separate upstream licenses.
+  Source: https://github.com/KaleidoscopeMods/KaleidoscopeCookery
+
+Immersive Engineering-derived material
+--------------------------------------
+
+The following material incorporates, adapts, or directly depends on Immersive
+Engineering artwork or model material and is distributed only under the
+permissions and restrictions of Blu's License of Common Sense, not under the
+MIT grant above insofar as it contains upstream material:
+
+* `src/main/resources/assets/cookery_engineering/models/block/multiblock/`
+  OBJ/MTL content that incorporates or references IE Mixer, Crusher, treated
+  wood, sheetmetal, multiblock-component, or other IE model materials;
+* `src/main/resources/assets/cookery_engineering/textures/block/multiblock/`
+  textures derived from IE artwork, including `treated_wood_lid.png`;
+* the maturation-vessel GUI composition, which samples IE-owned GUI textures
+  from the installed dependency at runtime rather than bundling those source
+  textures;
+* use of IE's Mixer agitator, Mixer and Crusher operating sounds, GUI widgets,
+  manual rendering, multiblock rendering, and Projector-facing manual data.
+
+Original additions made by Cookery Engineering contributors remain under the
+MIT License where they can be separated from upstream material. Attribution
+details are also recorded in `src/main/resources/GUI_ART_CREDITS.md`.
+
+Kaleidoscope Cookery-derived recipe data
+----------------------------------------
+
+The files under
+`src/main/resources/data/cookery_engineering/recipe/sawmill/kaleidoscope_cookery/`
+adapt Kaleidoscope Cookery 1.5.0 Chopping Board recipes to Immersive
+Engineering's Sawmill format. Those adapted data files are licensed under
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+(CC BY-NC-SA 4.0), not MIT.
+
+Original data copyright (c) 2025, Kaleidoscope Official Production Team.
+Changes: recipe type, processing-energy fields, and IE sawmill output fields
+were added while preserving the KC ingredients and results.
+
+Upstream asset license:
+https://github.com/KaleidoscopeMods/KaleidoscopeCookery/blob/main/LICENSE-ASSETS
+
+CC BY-NC-SA 4.0 legal code:
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+Further attribution is recorded in
+`src/main/resources/RECIPE_COMPAT_CREDITS.md`.
+
+Optional interoperability declarations
+--------------------------------------
+
+Cookery Engineering contains conditional data-pack references or compatibility
+paths for the following optional projects. Unless explicitly identified above,
+their code and asset binaries are not bundled; names, namespaces, registry IDs,
+and public interoperability contracts are referenced only when the relevant
+mod is installed. Each project remains governed by its own license:
+
+* Farmer's Delight (`farmersdelight`) -- Rich Soil cloche recipes; upstream
+  metadata declares MIT.
+* Kaleidoscope ChineseFood (`kaleidoscope_chinesefood`) -- eggplant cloche
+  recipes; upstream metadata declares MIT for code and CC BY-NC-SA 4.0 for
+  assets.
+* Kaleidoscope Nether (`kaleidoscope_nether`) -- cloche recipes; upstream
+  metadata declares MIT.
+* Kaleidoscope End (`kaleidoscope_end`) -- cloche recipes; upstream metadata
+  declares MIT.
+* Youkai's Feast (`youkaisfeasts`) -- cloche recipes; upstream metadata
+  declares LGPL-2.1.
+* Create (`create`) -- honeycomb cloche recipe; upstream code is MIT and
+  upstream assets are All Rights Reserved.
+* Immersive Petroleum (`immersivepetroleum`) -- optional Projector consumes
+  the multiblock manual data exposed through IE; no compile-time dependency is
+  bundled. Upstream metadata declares All Rights Reserved.
+* The conventional `c` tag namespace -- cross-mod ingredient tags only; it is
+  not a bundled mod or a claim of ownership.
+
+Development tooling
+-------------------
+
+The project is built with Java, Gradle, ModDevGradle, and Parchment mappings.
+Parchment mappings are CC0-1.0. These tools and their licenses are independent
+of the MIT license granted for Cookery Engineering's original material and are
+not relicensed by this file.
+
+No reference to a third-party project grants endorsement, ownership, or rights
+beyond those supplied by that project's copyright holders and license terms.

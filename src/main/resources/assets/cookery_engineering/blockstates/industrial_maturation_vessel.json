@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cookery_engineering:block/multiblock/industrial_maturation_vessel_split",
+      "uvlock": true
+    },
+    "facing=east": {
+      "model": "cookery_engineering:block/multiblock/industrial_maturation_vessel_split",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cookery_engineering:block/multiblock/industrial_maturation_vessel_split",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cookery_engineering:block/multiblock/industrial_maturation_vessel_split",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

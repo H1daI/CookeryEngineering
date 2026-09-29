@@ -1,0 +1,30 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "kaleidoscope_cookery:chili_seed"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "results": [
+    {
+      "output": {
+        "id": "kaleidoscope_cookery:red_chili",
+        "count": 2
+      },
+      "chance": 0.9
+    },
+    {
+      "output": {
+        "id": "kaleidoscope_cookery:green_chili",
+        "count": 2
+      },
+      "chance": 0.1
+    }
+  ],
+  "time": 800,
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "kaleidoscope_cookery:chili_crop"
+  }
+}

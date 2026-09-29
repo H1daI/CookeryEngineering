@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "multiblockslave=true": {
+      "model": "cookery_engineering:block/multiblock/industrial_thresher_dummy"
+    },
+    "multiblockslave=false,facing=north": {
+      "model": "cookery_engineering:block/multiblock/industrial_thresher",
+      "y": 0
+    },
+    "multiblockslave=false,facing=east": {
+      "model": "cookery_engineering:block/multiblock/industrial_thresher",
+      "y": 90
+    },
+    "multiblockslave=false,facing=south": {
+      "model": "cookery_engineering:block/multiblock/industrial_thresher",
+      "y": 180
+    },
+    "multiblockslave=false,facing=west": {
+      "model": "cookery_engineering:block/multiblock/industrial_thresher",
+      "y": 270
+    }
+  }
+}

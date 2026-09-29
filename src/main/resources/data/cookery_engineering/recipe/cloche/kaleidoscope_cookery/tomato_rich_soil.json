@@ -1,0 +1,29 @@
+{
+  "type": "immersiveengineering:cloche",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "input": {
+    "item": "kaleidoscope_cookery:tomato_seed"
+  },
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "results": [
+    {
+      "output": {
+        "id": "kaleidoscope_cookery:tomato",
+        "count": 3
+      },
+      "chance": 1
+    }
+  ],
+  "time": 800,
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "kaleidoscope_cookery:tomato_crop"
+  }
+}

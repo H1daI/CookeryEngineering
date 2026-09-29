@@ -1,0 +1,29 @@
+{
+  "type": "immersiveengineering:cloche",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "youkaisfeasts"
+    }
+  ],
+  "input": {
+    "item": "youkaisfeasts:cucumber_seeds"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "results": [
+    {
+      "output": {
+        "id": "youkaisfeasts:cucumber",
+        "count": 2
+      },
+      "chance": 1
+    }
+  ],
+  "time": 800,
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "youkaisfeasts:cucumber"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "immersiveengineering:cloche",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "input": {
+    "item": "kaleidoscope_cookery:rice"
+  },
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "results": [
+    {
+      "output": {
+        "id": "kaleidoscope_cookery:rice_panicle",
+        "count": 3
+      },
+      "chance": 1
+    }
+  ],
+  "time": 800,
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "kaleidoscope_cookery:rice_crop"
+  }
+}

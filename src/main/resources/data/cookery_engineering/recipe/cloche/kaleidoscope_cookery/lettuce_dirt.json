@@ -1,0 +1,30 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "kaleidoscope_cookery:lettuce_seed"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "results": [
+    {
+      "output": {
+        "id": "kaleidoscope_cookery:lettuce",
+        "count": 2
+      },
+      "chance": 0.95
+    },
+    {
+      "output": {
+        "id": "kaleidoscope_cookery:caterpillar",
+        "count": 2
+      },
+      "chance": 0.05
+    }
+  ],
+  "time": 800,
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "kaleidoscope_cookery:lettuce_crop"
+  }
+}

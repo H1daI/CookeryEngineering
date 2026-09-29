@@ -1,0 +1,23 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "kaleidoscope_cookery:tea_seed"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "results": [
+    {
+      "output": {
+        "id": "kaleidoscope_cookery:fresh_tea_leaves",
+        "count": 2
+      },
+      "chance": 1
+    }
+  ],
+  "time": 800,
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "kaleidoscope_cookery:tea_tree"
+  }
+}

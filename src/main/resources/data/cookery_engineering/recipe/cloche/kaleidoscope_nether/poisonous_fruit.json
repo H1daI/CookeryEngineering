@@ -1,0 +1,29 @@
+{
+  "type": "immersiveengineering:cloche",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_nether"
+    }
+  ],
+  "input": {
+    "item": "kaleidoscope_nether:poisonous_fruit"
+  },
+  "soil": {
+    "item": "minecraft:soul_sand"
+  },
+  "results": [
+    {
+      "output": {
+        "id": "kaleidoscope_nether:poisonous_fruit",
+        "count": 2
+      },
+      "chance": 1
+    }
+  ],
+  "time": 800,
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "kaleidoscope_nether:poisonous_fruit"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "loader": "neoforge:obj",
+  "model": "cookery_engineering:models/block/multiblock/industrial_maturation_vessel.obj",
+  "flip_v": true,
+  "display": {
+    "gui": {
+      "rotation": [20, -45, 0],
+      "scale": [0.25, 0.25, 0.25]
+    },
+    "fixed": {
+      "rotation": [20, -45, 0],
+      "scale": [0.25, 0.25, 0.25]
+    },
+    "ground": {
+      "rotation": [20, -45, 0],
+      "scale": [0.25, 0.25, 0.25]
+    }
+  }
+}

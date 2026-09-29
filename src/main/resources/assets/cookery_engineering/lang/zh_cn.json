@@ -1,0 +1,17 @@
+{
+  "item.cookery_engineering.roach": "蜚蠊",
+  "item.cookery_engineering.arthropod_biomass": "节肢生物质",
+  "item.cookery_engineering.chitin": "几丁质",
+  "item.cookery_engineering.blatts_protein_bar": "蜚氏™蛋白棒",
+  "block.cookery_engineering.industrial_maturation_vessel": "大型熟化釜",
+  "block.cookery_engineering.arthropod_cultivation_chamber": "节肢动物繁育舱",
+  "block.cookery_engineering.industrial_thresher": "工业脱粒机",
+  "gui.cookery_engineering.industrial_maturation_vessel.manual_start": "手动启动",
+  "gui.cookery_engineering.industrial_maturation_vessel.energy": "储能：%s / %s IF",
+  "gui.cookery_engineering.industrial_maturation_vessel.if": "IF",
+  "gui.cookery_engineering.industrial_maturation_vessel.fluid": "汤底",
+  "gui.cookery_engineering.industrial_maturation_vessel.input": "投料",
+  "gui.cookery_engineering.industrial_maturation_vessel.output": "产物",
+  "gui.cookery_engineering.industrial_maturation_vessel.container": "容器",
+  "manual.cookery_engineering.cookery_engineering": "烹饪工程"
+}

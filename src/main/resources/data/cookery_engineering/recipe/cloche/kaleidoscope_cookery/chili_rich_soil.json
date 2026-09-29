@@ -1,0 +1,36 @@
+{
+  "type": "immersiveengineering:cloche",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "input": {
+    "item": "kaleidoscope_cookery:chili_seed"
+  },
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "results": [
+    {
+      "output": {
+        "id": "kaleidoscope_cookery:red_chili",
+        "count": 3
+      },
+      "chance": 0.7
+    },
+    {
+      "output": {
+        "id": "kaleidoscope_cookery:green_chili",
+        "count": 3
+      },
+      "chance": 0.3
+    }
+  ],
+  "time": 800,
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "kaleidoscope_cookery:chili_crop"
+  }
+}

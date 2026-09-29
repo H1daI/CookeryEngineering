@@ -1,0 +1,23 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "kaleidoscope_cookery:tomato_seed"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "results": [
+    {
+      "output": {
+        "id": "kaleidoscope_cookery:tomato",
+        "count": 2
+      },
+      "chance": 1
+    }
+  ],
+  "time": 800,
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "kaleidoscope_cookery:tomato_crop"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 800,
+  "input": {
+    "item": "minecraft:mutton"
+  },
+  "result": {
+    "count": 2,
+    "id": "kaleidoscope_cookery:raw_lamb_chops"
+  },
+  "secondaryOutputs": [],
+  "strippingSecondaries": []
+}
